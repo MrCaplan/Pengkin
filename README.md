@@ -14,7 +14,9 @@
 도모하고자 기획함
 
 ### 1.3 프로토타입 및 초기 디자인 
+<img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%90%E1%85%A9%E1%84%90%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B81.png" width="100" height="200"/> <img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%90%E1%85%A9%E1%84%90%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B82.png" width="100" height="200"/> 
 
-
+### 1.4 화면 설계도
+<img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%92%E1%85%AA%E1%84%86%E1%85%A7%E1%86%AB%E1%84%89%E1%85%A5%E1%86%AF%E1%84%80%E1%85%A8%E1%84%83%E1%85%A9.png" width="600" height="500"/> 
 
 
