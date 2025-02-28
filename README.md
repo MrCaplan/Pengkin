@@ -30,7 +30,7 @@
 ### 2.3 회로도 
 <img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%87%E1%85%A1%E1%84%8F%E1%85%B1%E1%84%80%E1%85%AE%E1%84%83%E1%85%A9%E1%86%BC%E1%84%92%E1%85%AC%E1%84%83%E1%85%A9%E1%84%85%E1%85%A9.png" width="300" height="250"/> <img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%80%E1%85%A9%E1%86%BC%E1%84%80%E1%85%B5%E1%84%8C%E1%85%B5%E1%86%AF%E1%84%8E%E1%85%B3%E1%86%A8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%92%E1%85%AC%E1%84%85%E1%85%A9%E1%84%83%E1%85%A9.png" width="300" height="250"/>
 
-## 3. 프로젝트 내용 
+## 3. 프로젝트 내용 - SW 주요기능
 ### 3.1 SW 주요기능 - Android [공기값 측정]
 - 아두이노에서 얻은 가스 값을 App 메인화면에 띄운 뒤, 
 가스수치가 이상치를 가질때(400이상)
@@ -53,13 +53,30 @@
 
 ### 3.4 SW 주요기능 - 자세감지
 1. 사용자가 ＂집중모드”를 요청하고 30분 이상 앉아있을 경우 스트레칭 권유 (앉음 자세는 mediapipe로 분류)
-<img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%8C%E1%85%A1%E1%84%89%E1%85%A6%E1%84%80%E1%85%A1%E1%86%B7%E1%84%8C%E1%85%B5.png" width="400" height="300"/> 
+<img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%8C%E1%85%A1%E1%84%89%E1%85%A6%E1%84%80%E1%85%A1%E1%86%B7%E1%84%8C%E1%85%B5.png" width="300" height="200"/> 
 2. 사용자와 펭킨간의 대화가 3턴 이상 지나면 사용자의 감정에 따른 스트레칭 권유
 <img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%8C%E1%85%B5%E1%86%B8%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%86%E1%85%A9%E1%84%83%E1%85%B3.png" width="400" height="200"/> 
 
 ### 3.5 SW 주요 기능 – 대화형 AI
 - Open ai의 gpt-3.5-turbo api를 사용하여 사용자와의 대화를 구축
 <img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%80%E1%85%A1%E1%86%B7%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8F%E1%85%A9%E1%86%AB%E1%84%89%E1%85%A9%E1%86%AF.png" width="600" height="250"/>
+
+## 4. 프로젝트 내용 - HW 주요기능
+### 4.1 HW 주요 기능 - 공기질 측정 
+- mq135 공기질 센서와 HC-06 블루투스를 활용해 
+아두이노 보드에 연결하여 mq135에서 들어온 값을 읽고, 
+읽은 값을 안드로이드에 전송함.
+<img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%89%E1%85%A6%E1%86%AB%E1%84%89%E1%85%A5%E1%84%87%E1%85%AE%E1%84%8E%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB.png" width="200" height="200"/> <img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%89%E1%85%A6%E1%86%AB%E1%84%89%E1%85%A5%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%80%E1%85%A7%E1%86%AF%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB.png" width="200" height="200"/>
+
+### 4.2 HW 주요 기능 - 실시간 객체 추적
+- ESP32-Cam 카메라 & tensorflow Api 사용
+- COCO dataset을 사용해 사람을 인식 후 좌표 값을 구한 뒤 BoundingBox 의 가로 값이 400 이하 일 때 전진 하고, 400 이상 일 때 멈춤
+- 중심 좌표를 구한 BoundingBox 값이 중심에서 200 이상 벗어난다면 오른쪽 또는 왼쪽 방향으로 추적
+
+<img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%80%E1%85%A2%E1%86%A8%E1%84%8E%E1%85%A6%E1%84%8E%E1%85%AE%E1%84%8C%E1%85%A5%E1%86%A8.png" width="200" height="200"/> <img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%92%E1%85%A1%E1%84%83%E1%85%B3%E1%84%8B%E1%85%B0%E1%84%8B%E1%85%A5%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%80%E1%85%A7%E1%86%AF%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB.jpg" width="200" height="200"/> 
+
+
+
 
 
 
