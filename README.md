@@ -46,6 +46,22 @@
 
 <img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%89%E1%85%AE%E1%84%83%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%A9%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA%E1%84%86%E1%85%A7%E1%86%AB.png" width="200" height="400"/> <img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%89%E1%85%AE%E1%84%83%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%A9%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B5%E1%86%AF%E1%84%92%E1%85%A2%E1%86%BC%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%86%E1%85%A7%E1%86%AB.png" width="300" height="200"/> 
 
+### 3.3 SW 주요기능 - 감정인식
+- Haar cascade 분류기를 사용해 표정을 검출한 뒤 표정에 맞는 프롬프트를 생성
+
+<img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%80%E1%85%A1%E1%86%B7%E1%84%8C%E1%85%B5%E1%84%92%E1%85%AA%E1%84%86%E1%85%A7%E1%86%AB.png" width="500" height="200"/> 
+
+### 3.4 SW 주요기능 - 자세감지
+1. 사용자가 ＂집중모드”를 요청하고 30분 이상 앉아있을 경우 스트레칭 권유 (앉음 자세는 mediapipe로 분류)
+<img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%8C%E1%85%A1%E1%84%89%E1%85%A6%E1%84%80%E1%85%A1%E1%86%B7%E1%84%8C%E1%85%B5.png" width="400" height="300"/> 
+2. 사용자와 펭킨간의 대화가 3턴 이상 지나면 사용자의 감정에 따른 스트레칭 권유
+<img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%8C%E1%85%B5%E1%86%B8%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%86%E1%85%A9%E1%84%83%E1%85%B3.png" width="400" height="200"/> 
+
+### 3.5 SW 주요 기능 – 대화형 AI
+- Open ai의 gpt-3.5-turbo api를 사용하여 사용자와의 대화를 구축
+<img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%80%E1%85%A1%E1%86%B7%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8F%E1%85%A9%E1%86%AB%E1%84%89%E1%85%A9%E1%86%AF.png" width="600" height="250"/>
+
+
 
 
 
