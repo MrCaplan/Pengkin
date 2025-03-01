@@ -1,4 +1,6 @@
 # 돌봄 사각지대에 놓인 사회적약자를 위한 상황인지형 감정케어 로봇 Pengkin 🤖
+## 프로젝트 시연 영상 
+![Image](https://github.com/user-attachments/assets/1efcbd71-199c-4cc2-b824-92279112bca2)
 
 ## 1. 개요
 ### 1.1 주제 선정 배경 
@@ -66,6 +68,7 @@
 - mq135 공기질 센서와 HC-06 블루투스를 활용해 
 아두이노 보드에 연결하여 mq135에서 들어온 값을 읽고, 
 읽은 값을 안드로이드에 전송함.
+
 <img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%89%E1%85%A6%E1%86%AB%E1%84%89%E1%85%A5%E1%84%87%E1%85%AE%E1%84%8E%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB.png" width="200" height="200"/> <img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%89%E1%85%A6%E1%86%AB%E1%84%89%E1%85%A5%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%80%E1%85%A7%E1%86%AF%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB.png" width="200" height="200"/>
 
 ### 4.2 HW 주요 기능 - 실시간 객체 추적
@@ -74,6 +77,7 @@
 - 중심 좌표를 구한 BoundingBox 값이 중심에서 200 이상 벗어난다면 오른쪽 또는 왼쪽 방향으로 추적
 
 <img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%80%E1%85%A2%E1%86%A8%E1%84%8E%E1%85%A6%E1%84%8E%E1%85%AE%E1%84%8C%E1%85%A5%E1%86%A8.png" width="200" height="200"/> <img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%92%E1%85%A1%E1%84%83%E1%85%B3%E1%84%8B%E1%85%B0%E1%84%8B%E1%85%A5%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%80%E1%85%A7%E1%86%AF%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB.jpg" width="200" height="200"/> 
+
 
 
 
