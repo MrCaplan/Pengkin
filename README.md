@@ -78,6 +78,22 @@
 
 <img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%80%E1%85%A2%E1%86%A8%E1%84%8E%E1%85%A6%E1%84%8E%E1%85%AE%E1%84%8C%E1%85%A5%E1%86%A8.png" width="200" height="200"/> <img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%92%E1%85%A1%E1%84%83%E1%85%B3%E1%84%8B%E1%85%B0%E1%84%8B%E1%85%A5%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%80%E1%85%A7%E1%86%AF%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB.jpg" width="200" height="200"/> 
 
+## 5. Problem Shooting
+
+### 5.1 KT AI Makers kit 구매 후 모든 소프트웨어 직접 개발하며 많은 시간 소모
+#### Q. 일반 라즈베리파이 보드를 안 사고 Kt AI Makers kit를 구매한 이유?
+A. 오토런 사용을 위해서.
+
+#### Q. 오토런이 뭔데?
+A. Kt AI Makers kit의 노랑버튼을 터치 했을 때 블록코딩 작품이 자동으로 실행되는 기능.
+
+#### Q. 굳이 블록코딩 써야되는 이유가 뭐였는데?
+A.  표정 분석, 자세 인식, 사용자와 시스템 간의 대화를 파이썬 말고 블록코딩으로 구현한다면 보다 쉽게 개발 할 수 있을 것 같아 설계 단계에서 그리하기로 결정했었음. 그래서 부품이 오기 전까진 실제로 블록코딩으로 개발을 하고 웹상에서 테스트를 했었음.
+
+
+
+
+
 
 
 
