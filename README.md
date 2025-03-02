@@ -120,7 +120,12 @@ kt ai makers kit의 HW만 사용을 하다보니 종속성 문제가 발생함.
 ### 6.3 경비 문제 
 ➡️ 최대한 사놓은 부품 위주로 개발 진행 
 
+## 7. 성과 
+### 7.1 프로보노 공모전 입선 
+<img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%80%E1%85%A9%E1%86%BC%E1%84%86%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%89%E1%85%A5%E1%86%AB.png" width="600" height="300"/>
 
+### 7.2 학술대회 논문 게재 및 발표 
+<img src="https://github.com/MrCaplan/Pengkin/blob/main/pictures/%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%80%E1%85%A6%E1%84%8C%E1%85%A2.png" width="600" height="300"/>
 
 
 
